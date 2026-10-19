@@ -2,28 +2,28 @@
 class Openprofiler < Formula
   desc "Open-source JVM profiler: CPU, allocations, heap dumps, JFR and live attach"
   homepage "https://github.com/matusso/openprofiler"
-  version "0.5.0"
+  version "0.6.0"
   license all_of: ["Apache-2.0", "MPL-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/matusso/openprofiler/releases/download/v0.5.0/openprofiler-v0.5.0-darwin-arm64.tar.gz"
-      sha256 "aa03b2cd886bd1fd44f37e2d437ee03e7867e92ac9ed82d324be4ca11d15c4c0"
+      url "https://github.com/matusso/openprofiler/releases/download/v0.6.0/openprofiler-v0.6.0-darwin-arm64.tar.gz"
+      sha256 "7c221de9e803cb6920febd680160b3d656f28c9909d8879dc9481d49d4614115"
     end
     on_intel do
-      url "https://github.com/matusso/openprofiler/releases/download/v0.5.0/openprofiler-v0.5.0-darwin-amd64.tar.gz"
-      sha256 "83205048d09a60c313ac909a63d825e39299250767a67bba880898dc07549b5c"
+      url "https://github.com/matusso/openprofiler/releases/download/v0.6.0/openprofiler-v0.6.0-darwin-amd64.tar.gz"
+      sha256 "ad2dc852b993c5faf3f8a5d11f3151edad265bc5040dd3a871e99c28a557115f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/matusso/openprofiler/releases/download/v0.5.0/openprofiler-v0.5.0-linux-arm64.tar.gz"
-      sha256 "c4f811a05784737f897a74e6bc7f688bdff5570070d87bf07a0b11236eaa68ae"
+      url "https://github.com/matusso/openprofiler/releases/download/v0.6.0/openprofiler-v0.6.0-linux-arm64.tar.gz"
+      sha256 "f5ca66788b40d49f6355b94718ead43c6220178de8e80c1711891eadddfe0a6c"
     end
     on_intel do
-      url "https://github.com/matusso/openprofiler/releases/download/v0.5.0/openprofiler-v0.5.0-linux-amd64.tar.gz"
-      sha256 "9e5121e1ae0cb3c6d7972a4b77bfd8ea986370392f14e03e67e63bfda99644a9"
+      url "https://github.com/matusso/openprofiler/releases/download/v0.6.0/openprofiler-v0.6.0-linux-amd64.tar.gz"
+      sha256 "8e241267ab87c4d84efcdbfeeccb6f34981dd509b2a7c9f24b34003ec37ce24e"
     end
   end
 
